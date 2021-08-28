@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    
+}
+html, body {
+    background-color: #1c1c1c;
+    margin: 0;
+    padding: 0;
+}   
+ul {
+    margin: 0;
+    padding: 1;
+}
+h1, p, h3 {
+    color: #ffffff;
+}
+
+.main-nav li {
+    display: inline;
+    display: inline-block;
+    padding: 40px 5%;
+    padding-top: 20px;
+    transform: translateX(-30px); 
+}
+
+.main-nav li:hover {
+    color: rgb(209, 200, 190);
+    
+}
+
+
+.main-nav {
+   color: #ffffff;
+   text-align: center;
+   border-bottom: 1px solid rgb(255,255,255);
+}
+
+
+.main-header {
+    background-size: cover;
+}
+
+.content{
+    margin: 0px auto;
+    padding: 0 20px;
+}
+
+.heading-2 {
+    padding-left: 10px;
+}
+
+.download-text{
+    padding-top: 20px;
+    text-align: center;
+}
+
+.download-button{
+    position:relative;
+    top:45%;
+    left:49%;
+    background-color: #e5d8ba;
+    border: none;
+    color: black;
+    text-align: center;
+    border-radius: 2px;
+}
+
+.button-1 {
+    position:absolute;
+    top:49%;
+    left:23%;
+    background-color: #e5d8ba;
+    border: none;
+    color: black;
+    text-align: center;
+    border-radius: 2px;
+}
+
+.button-1:hover {
+    box-shadow: 0 12px 14px 0 rgba(0,0,0,0.24), 0 5px 15px 0 rgba(0,0,0,0.19);
+}
+
+.download-button:hover {
+    box-shadow: 0 12px 14px 0 rgba(0,0,0,0.24), 0 5px 15px 0 rgba(0,0,0,0.19);
+  }
+
+
+.main-footer {
+    background-color:rgb(155, 139, 118) ;
+    color:#ffffff;
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-container {
+    display:flex;
+}
+
+.youtube-logo {
+    padding-top: 10px;
+    padding-right: 40px;
+}
+
+.footer-text {
+    padding-left: 40px;
+}
+
+.footer-container ul {
+    flex-grow: 1;
+    text-align: end;
+}
+
+.header a {
+    text-decoration: none;
+    text-decoration-color: none;
+    color: white;
+}
+.header a:hover {
+    color: rgb(185, 177, 153);
+}
