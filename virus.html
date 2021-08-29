@@ -20,10 +20,12 @@
             
         </header>
         <section class="content">
-            <button onClick-"this.innerHTML = 'ever'" class="button-1">what</button>
+            <button id="button" onClick="whatEver()" class="button-1">what</button>
             <script>
+               
                 function whatEver() {
-                    alert("ever")
+                    var button = document.getElementById("button");
+                    button.innerHTML = 'ever';
                 }
             </script>
         </section>
